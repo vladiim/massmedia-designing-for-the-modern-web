@@ -84,7 +84,7 @@
 .title {
     font-family: Arial, sans-serif;
     padding: 0;
-    color: rgba(1, 1, 1, 0.4);
+    color: rgba(255,255,255, 0.4);
     font-style: bold;
     text-shadow: 3px 3px 3px rgba(1,1,1,0.3);
 }
@@ -165,12 +165,12 @@ table {
 
 body {
     font-family: Helvetica, sans-serif;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgba(37, 37, 37, 0.5)), to(rgba(17, 17, 17, 0.3)));
-    background: -webkit-radial-gradient(rgba(37, 37, 37, 0.5), rgba(17, 17, 17, 0.3));
-    background:    -moz-radial-gradient(rgba(37, 37, 37, 0.5), rgba(17, 17, 17, 0.3));
-    background:     -ms-radial-gradient(rgba(37, 37, 37, 0.5), rgba(17, 17, 17, 0.3));
-    background:      -o-radial-gradient(rgba(37, 37, 37, 0.5), rgba(17, 17, 17, 0.3));
-    background:         radial-gradient(rgba(37, 37, 37, 0.5), rgba(17, 17, 17, 0.3));
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgba(1,1,1, 0.7)), to(rgba(0, 0, 0, 0.9)));
+    background: -webkit-radial-gradient(rgba(1,1,1, 0.7), rgba(0, 0, 0, 0.9));
+    background:    -moz-radial-gradient(rgba(1,1,1, 0.7), rgba(0, 0, 0, 0.9));
+    background:     -ms-radial-gradient(rgba(1,1,1, 0.7), rgba(0, 0, 0, 0.9));
+    background:      -o-radial-gradient(rgba(1,1,1, 0.7), rgba(0, 0, 0, 0.9));
+    background:         radial-gradient(rgba(1,1,1, 0.7), rgba(0, 0, 0, 0.9));
 }
 
 b, strong { font-weight: bold }
